@@ -47,7 +47,12 @@ const register = async (req, res) => {
 
 }
 
+const me = async (req, res) => {
+    return new Response(req.user).success(res)
+}
+
 module.exports = {
     login,
-    register
+    register,
+    me
 }
