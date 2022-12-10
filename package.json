@@ -7,7 +7,22 @@
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "starter-api",
+    "starter-project",
+    "mongodb-starter-project",
+    "express-mongodb-starter-project",
+    "express-api",
+    "nodejs-rest-api",
+    "api-güvenligi",
+    "rest-api",
+    "api-securty",
+    "base-api",
+    "nodejs-base-api"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
