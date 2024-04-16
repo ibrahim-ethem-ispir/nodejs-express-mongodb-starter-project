@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 require("dotenv").config()
 require("./src/db/dbConnection")
-const port = process.env.PORT || 5001
+const port = process.env.PORT || 5002
 const router = require("./src/routers")
 const errorHandlerMiddleware = require("./src/middlewares/errorHandler")
 const cors = require("cors")
